@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&family=EB+Garamond:ital,wght@1,500&family=Explora&family=Nunito:ital,wght@1,300;1,700&family=Playfair+Display:wght@700&family=Raleway:ital,wght@1,600&display=swap');
+*{
+    font-family: 'Belanosima', sans-serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Explora', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif;
+}
+fieldset{
+    border: 2px dotted black;
+    background: rgb(211, 211, 211);
+    width: 500px;
+}
+legend{
+    font-size: 17px;
+}
+fieldset input{
+    border-radius: 5px;
+    border: 0.5px;
+    transition-duration: 0.4s;
+}
+fieldset input:hover{
+    transform: scale(1.05);
+}
